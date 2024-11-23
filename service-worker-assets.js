@@ -193,7 +193,7 @@
       "url": "images\/name.png"
     },
     {
-      "hash": "sha256-PSnvbC65txCdvRmTd7+ndedhQs4u3LnsRzEGlGqZORA=",
+      "hash": "sha256-BWbwGt7xt9JTRLtDYm1kLYaQwDfb4OAI+ZKSNbS5HVU=",
       "url": "index.html"
     },
     {
@@ -205,5 +205,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "1is2JoTV"
+  "version": "Td7zKCdP"
 };
