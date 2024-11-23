@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-PWFGs5lhH3dVpmx0NAsMNyj8AFvXJN9oNQoNfIY6Yo0=",
+      "hash": "sha256-TeuaFmtxWdQrWZIcEJ\/5vMHaRCI7LLnxhflNzef3pCU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -205,5 +205,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "ywGhGusl"
+  "version": "5GnaVI+D"
 };
