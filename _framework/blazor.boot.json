@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Hiptoken",
   "resources": {
-    "hash": "sha256-yVbATbsdRTJwA+O9yQ7X+8prtPVasql61+hM7coin34=",
+    "hash": "sha256-WLwax5mWICiziN41wJCbB0ZPGNQLMetTY1ykPvVzHIg=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.mw1kbd131f.js": "sha256-Gq/YqqvNIKGS+Awu1ozolYJd8VGcjbgMH4sU5hvZvTs="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "Hiptoken.wasm": "sha256-MbuKTyFY4Jz5E8xpzr5ox9WwGjX3RmZ/8ZwwOWT64Ek=",
+      "Hiptoken.wasm": "sha256-aU8TIvVVdY4MWifL25r1urqJn8KLWAqts2yVovnXc6g=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-klrBNbsLiNykqIl809GC7/Y2dKIb12ad30wpJHnuoRU=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-VnMUskpCPmW1fX4qZihu4ZyOPWe/cSBWh229O8+OZxU=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-9pa4TX6FPCR8IZ3hObhj8D/J0Rp+4PZ1bfCK0WQAIZ8=",
@@ -49,6 +49,7 @@
       "System.Text.RegularExpressions.wasm": "sha256-o6Ef/uOI9sFxJXKnXQbJnRMbcIIJ/ZFdc4fFqA9wu7Y="
     }
   },
+  "cacheBootResources": true,
   "debugLevel": 0,
   "linkerEnabled": true,
   "globalizationMode": "sharded",
