@@ -1,15 +1,15 @@
 {
   "mainAssemblyName": "Hiptoken",
   "resources": {
-    "hash": "sha256-WLwax5mWICiziN41wJCbB0ZPGNQLMetTY1ykPvVzHIg=",
+    "hash": "sha256-6IiXdUkK+VIvn0aLl1MrMIrAYIxqKV9FgtoDsnDi3G4=",
     "jsModuleNative": {
-      "dotnet.native.8.0.5.mw1kbd131f.js": "sha256-Gq/YqqvNIKGS+Awu1ozolYJd8VGcjbgMH4sU5hvZvTs="
+      "dotnet.native.8.0.5.mw1kbd131f.js": "sha256-FhJ+ogcqz3qIF/GP2hiEoDSxIYNM+3Qb3bYMuJq0JlU="
     },
     "jsModuleRuntime": {
       "dotnet.runtime.8.0.5.gongq8hbow.js": "sha256-5oi05+Ql/1JzyAphppAHmbRquli4a3/0XLMa8mQDKn8="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-R1OjvlBXg0vYMdonoRbpIymSrrkH2HwJWCTtnSNhwKU="
+      "dotnet.native.wasm": "sha256-RI2jU/BTN31cGNtOCJlvGypkihGCuMDdExS08zjQGEo="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -40,15 +40,16 @@
       "System.Memory.wasm": "sha256-9HUy4gMJdNTLo7N0VwoI8QasP0gpyKztKnHbnQcS3e8=",
       "System.Net.Http.wasm": "sha256-dNw+0qE8/Sp6HZupDFKYxe+CbqA3DdGWU8lNaBpNd80=",
       "System.Net.Primitives.wasm": "sha256-kqcIbMBUCbf4DB88ACNSE264ZOxmyLQuZFeNbqIsCM4=",
-      "System.Private.CoreLib.wasm": "sha256-mbcQZ4dgSLOC3pqirgeA4iKZrswtoOxahsGtj+76goc=",
+      "System.Private.CoreLib.wasm": "sha256-wEv0sxb0y3SoX43vJL3Xqx1J0fbPifH0ElP+LMBLDDk=",
       "System.Private.Uri.wasm": "sha256-BzXC/OIDlX/a8+RXKcwWs6g84xZCXzBccGC9lYdCnn4=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-9Bmhf95Vju/zsMHWwmsVboR31tWQeh/SfePN+0A87m8=",
       "System.Runtime.wasm": "sha256-XG3bkXacS5bKfRchYvUIM9SRzyQDGQELl3B29GXIy+M=",
-      "System.Text.Encodings.Web.wasm": "sha256-V69v6JYAgTsrgM4epAyn/+1+KjM60Hxzokb2hKtbPt0=",
+      "System.Text.Encodings.Web.wasm": "sha256-Vp6mGMP6dzKPv4hCNntl5eAxclNMvRMTW/3sdOOefJc=",
       "System.Text.Json.wasm": "sha256-n42G6dtH8ZLNiGlM75idHL7Ltdau1YP1Bmhkkx3WSPc=",
       "System.Text.RegularExpressions.wasm": "sha256-o6Ef/uOI9sFxJXKnXQbJnRMbcIIJ/ZFdc4fFqA9wu7Y="
     }
   },
+  "cacheBootResources": true,
   "debugLevel": 0,
   "linkerEnabled": true,
   "globalizationMode": "sharded",
