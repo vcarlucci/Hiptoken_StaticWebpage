@@ -1,3 +1,4 @@
+// Use for Dev:
 //{
 //  "name": "Hiptoken",
 //  "short_name": "Hiptoken",
@@ -20,11 +21,12 @@
 //    }
 //  ]
 //}
+// Use for Build:
 {
   "name": "Hiptoken",
   "short_name": "Hiptoken",
   "id": "./",
-  "start_url": "/Hiptoken_StaticWebpage/index.html",
+  "start_url": "/Hiptoken_StaticWebpage/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#03173d",
