@@ -4,29 +4,25 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hiptoken</title>
-    <!-- Use in Dev: -->
-    <!-- <base href="/" /> -->
-    <!-- Use for Build: -->
-    <base href="/" />
-    <!-- Use in Dev: -->
+    <title>BlazorWASMTest</title>
+    <base href="/Hiptoken_StaticWebpage/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="Hiptoken.styles.css" rel="stylesheet" />
-    <!-- Use for Build: -->
-<!--     <link rel="stylesheet" href="/Hiptoken_StaticWebpage/css/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="/Hiptoken_StaticWebpage/css/app.css" />
-    <link rel="icon" type="image/png" href="/Hiptoken_StaticWebpage/favicon.png" />
-    <link href="/Hiptoken_StaticWebpage/Hiptoken.styles.css" rel="stylesheet" /> -->
-
+    <link href="BlazorWASMTest.styles.css" rel="stylesheet" />
     <link href="manifest.webmanifest" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
 </head>
 
-<body style="background-color: #111524;color:white;">
-    <div id="app"></div>
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
@@ -36,4 +32,5 @@
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
+
 </html>
