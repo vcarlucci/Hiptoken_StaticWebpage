@@ -1,6 +1,6 @@
 {
-  "name": "BlazorWASMTest",
-  "short_name": "BlazorWASMTest",
+  "name": "Hiptoken",
+  "short_name": "Hiptoken",
   "id": "./",
   "start_url": "./",
   "display": "standalone",
